@@ -177,3 +177,53 @@ h2 {
   color: rgb(122, 131, 135);
   line-height: 1.875;
 }
+.features-item-title {
+}
+/*description*/
+.description {
+  min-height: 455px;
+  background-image: url(../images/header-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 80% center;
+  background-color: rgb(130, 20, 80);
+  background-blend-mode: overlay;
+}
+.description-inner {
+  padding-top: 120px;
+  padding-bottom: 105px;
+  text-align: center;
+}
+.text {
+  width: 940px;
+  margin: auto;
+}
+.advantages {
+  background-color: rgb(255, 255, 255);
+  padding-top: 70px;
+}
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.advantages-item {
+  position: relative;
+  width: 228px;
+  margin: 18px;
+  padding: 60px 5px 5px 5px;
+}
+.advantages-item::before {
+  content: ;
+  position: absolute left 50px;
+  width: 39px;
+  height: 39px;
+  transform: translateX(-50%);
+  background-image: ;
+}
+
+advantages-item-dashboard::before {
+  background-image: ;
+}
